@@ -1,0 +1,77 @@
+body {
+    margin:0;
+    background-color: #FAEEE7;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-family: 'Outfit', sans-serif;
+    color: #0e1c35;
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #122546;
+}
+
+table {
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    color: #122546;
+}
+
+input {
+    font-family: 'Outfit', sans-serif;
+    border-style: unset;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: inset 2px 2px 3px 2px #aaa;
+    padding: 5px;
+    margin: 5px;
+}
+
+input[type=submit] {
+    font-family: 'Outfit', sans-serif;
+    border-style: unset;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 3px 2px #aaa;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+textarea {
+    font-family: 'Outfit', sans-serif;
+    border-style: unset;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: inset 2px 2px 3px 2px #aaa;
+    padding: 5px;
+    margin: 5px;
+}
+
+label {
+    font-family: 'Outfit', sans-serif;
+}
+
+.header {
+    width: 100%;
+    background-color: #24A19C;
+    padding-bottom: 1px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.856);
+    position: fixed;
+}
+
+.mid-page{
+    width: 100%;
+}
+
+.bot-page{
+    width: 100%;
+}
+
+#Employment {
+    padding-top: 100px;
+}
