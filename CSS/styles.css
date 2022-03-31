@@ -1,11 +1,15 @@
 body {
-    margin:0;
+    margin: 0px;
+    padding: 0px;
     background-color: #FAEEE7;
 }
 
 h1 {
-    margin-top: 0;
-    margin-bottom: 5px;
+    font-family: 'Outfit', sans-serif;
+    color: #0e1c35;
+}
+
+h2 {
     font-family: 'Outfit', sans-serif;
     color: #0e1c35;
 }
@@ -31,13 +35,14 @@ input {
     box-shadow: inset 2px 2px 3px 2px #aaa;
     padding: 5px;
     margin: 5px;
+    background-color: #FAEEE7;
 }
 
 input[type=submit] {
     font-family: 'Outfit', sans-serif;
     border-style: unset;
     border-radius: 10px 10px 10px 10px;
-    box-shadow: 2px 2px 3px 2px #aaa;
+    box-shadow: 0px 1px 3px 4px #beb8b4;
     padding: 5px;
     margin-bottom: 15px;
 }
@@ -49,12 +54,14 @@ textarea {
     box-shadow: inset 2px 2px 3px 2px #aaa;
     padding: 5px;
     margin: 5px;
+    background-color: #FAEEE7;
 }
 
 label {
     font-family: 'Outfit', sans-serif;
 }
 
+/*
 .header {
     width: 100%;
     background-color: #24A19C;
@@ -63,15 +70,68 @@ label {
     box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.856);
     position: fixed;
 }
+*/
+
+.header{
+    padding-top: 100px;
+    margin-bottom: 5px;
+    font-family: 'Outfit', sans-serif;
+    color: #0e1c35;
+}
+
+.top-page{
+    padding-top: 100px;
+    background-image: linear-gradient(to bottom right, #FAEEE7, #1de5e2, rgb(0, 85, 197));
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.856);
+    margin: auto;
+    margin-top: 1%;
+    width: 98%;
+}
 
 .mid-page{
-    width: 100%;
+    background-image: linear-gradient(to bottom left, #35ffb2, #d84ffa);
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.856);
+    margin: auto;
+    width: 98%;
 }
 
 .bot-page{
+    background-image: linear-gradient(to bottom right, #facd68, #fc76b3);
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.856);
+    margin: auto;
+    width: 98%;
+}
+
+.contact-page{
+    background-image: linear-gradient(to bottom right, #5353f7, #fafd2f);
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.856);
+    margin: auto;
+    margin-bottom: 20px;
+    width: 98%;
+}
+
+.mountain{
+    position: relative;
+    top: 5px;
+    padding-top: 100px;
+    padding-bottom: 0px;
+    border: 0px;
+    border-radius: 15px 15px 15px 15px;
     width: 100%;
 }
 
-#Employment {
-    padding-top: 100px;
+.sec-title{
+    padding-top: 12px;
+    font-family: 'Outfit', sans-serif;
+    color: #0e1c35;
+}
+
+#Name{
+    font-size: 300%;
+    font-family: 'Outfit', sans-serif;
+    color: #0e1c35;
 }
