@@ -2,6 +2,10 @@ body {
     margin: 0px;
     padding: 0px;
     background-color: #FAEEE7;
+    background-image:url(../images/IMG_9035.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 h1 {
@@ -12,6 +16,7 @@ h1 {
 h2 {
     font-family: 'Outfit', sans-serif;
     color: #0e1c35;
+    font-size: 400%;
 }
 
 p {
@@ -26,6 +31,7 @@ table {
     font-family: 'Outfit', sans-serif;
     font-weight: bold;
     color: #122546;
+    font-size: 150%;
 }
 
 input {
@@ -35,6 +41,7 @@ input {
     box-shadow: inset 2px 2px 3px 2px #aaa;
     padding: 5px;
     margin: 5px;
+    width: 40%;
     background-color: #FAEEE7;
 }
 
@@ -42,9 +49,12 @@ input[type=submit] {
     font-family: 'Outfit', sans-serif;
     border-style: unset;
     border-radius: 10px 10px 10px 10px;
-    box-shadow: 0px 1px 3px 4px #beb8b4;
+    box-shadow: 0px 1px 3px 4px #beb7b4;
     padding: 5px;
     margin-bottom: 15px;
+    width: 40%;
+    background-color: #288651;
+    color: white;
 }
 
 textarea {
@@ -68,60 +78,51 @@ code {
     padding: 0 3px;
 }
 
-/*
-.header {
-    width: 100%;
-    background-color: #24A19C;
-    padding-bottom: 1px;
-    border-radius: 0px 0px 10px 10px;
+textarea {
+    width: 40%;
+}
+
+.top-page {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    background-color: #eee4d1;    border-radius: 15px 15px 15px 15px;
     box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.856);
-    position: fixed;
-}
-*/
-
-.header{
-    padding-top: 100px;
-    margin-bottom: 5px;
-    font-family: 'Outfit', sans-serif;
-    color: #0e1c35;
+    opacity: 90%;
+    margin: auto;
+    margin-top: 5%;
+    width: 90%;
+    position: relative
 }
 
-.top-page{
-    padding-top: 100px;
-    background-image: linear-gradient(to bottom right, #FAEEE7, #1de5e2, rgb(0, 85, 197));
-    border-radius: 15px 15px 15px 15px;
+.mid-page {
+    background-color: #eee4d1;    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.856);
+    opacity: 90%;
+    margin: auto;
+    margin-top: 3%;
+    width: 90%;
+}
+
+.bot-page {
+    background-color: #eee4d1;    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.856);
+    opacity: 90%;
+    margin: auto;
+    margin-top: 3%;
+    width: 90%;
+}
+
+.contact-page {
+    padding-bottom: 10px;
+    background-color: #eee4d1b9;    border-radius: 15px 15px 15px 15px;
     box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.856);
     margin: auto;
-    margin-top: 1%;
-    width: 98%;
-}
-
-.mid-page{
-    background-image: linear-gradient(to bottom left, #35ffb2, #d84ffa);
-    border-radius: 15px 15px 15px 15px;
-    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.856);
-    margin: auto;
-    width: 98%;
-}
-
-.bot-page{
-    background-image: linear-gradient(to bottom right, #facd68, #fc76b3);
-    border-radius: 15px 15px 15px 15px;
-    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.856);
-    margin: auto;
-    width: 98%;
-}
-
-.contact-page{
-    background-image: linear-gradient(to bottom right, #5353f7, #fafd2f);
-    border-radius: 15px 15px 15px 15px;
-    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.856);
-    margin: auto;
+    margin-top: 3%;
     margin-bottom: 20px;
-    width: 98%;
+    width: 90%;
 }
 
-.mountain{
+.mountain {
     position: relative;
     top: 5px;
     padding-top: 100px;
@@ -131,14 +132,26 @@ code {
     width: 100%;
 }
 
-.sec-title{
-    padding-top: 12px;
+.sec-title {
+    padding-top: 20px;
     font-family: 'Outfit', sans-serif;
     color: #0e1c35;
 }
 
-#Name{
-    font-size: 500%;
+#Name {
+    font-size: 600%;
     font-family: 'Outfit', sans-serif;
     color: #0e1c35;
+    
+}
+
+#Role-title {
+    font-size: 450%;
+    font-family: 'Outfit', sans-serif;
+    color: #0e1c35;
+}
+
+#Profile-picture {
+    border-radius: 50%;
+    margin: auto;
 }
