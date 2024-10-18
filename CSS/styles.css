@@ -61,6 +61,13 @@ label {
     font-family: 'Outfit', sans-serif;
 }
 
+code {
+    background-color: #eee;
+    border-radius: 3px;
+    font-family: courier, monospace;
+    padding: 0 3px;
+}
+
 /*
 .header {
     width: 100%;
@@ -131,7 +138,7 @@ label {
 }
 
 #Name{
-    font-size: 300%;
+    font-size: 500%;
     font-family: 'Outfit', sans-serif;
     color: #0e1c35;
 }
